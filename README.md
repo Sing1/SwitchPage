@@ -49,12 +49,11 @@ protected void onCreate(Bundle savedInstanceState) {
     SwitchPage page = (SwitchPage) findViewById(R.id.page);
     // 点击的返回监听
     page.setOnClickListener(new SwitchPage.OnClickListener() {
-            @Override
-            public void selected(int position, String txt) {
-                Toast.makeText(MainActivity.this,"选择了第"+(position+1)+"个，标题是："+txt,Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
+        @Override
+        public void selected(int position, String txt) {
+            Toast.makeText(MainActivity.this,"选择了第"+(position+1)+"个，标题是："+txt,Toast.LENGTH_SHORT).show();
+        }
+    });
 }
 ```
 ######2、代码编写
@@ -92,11 +91,11 @@ protected void onCreate(Bundle savedInstanceState) {
     ((LinearLayout)findViewById(R.id.parent)).addView(page,0);//添加到跟布局的指定位置
     
     page.setOnClickListener(new SwitchPage.OnClickListener() {
-            @Override
-            public void selected(int position, String txt) {
-                Toast.makeText(MainActivity.this,"选择了第"+(position+1)+"个，标题是："+txt,Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
+            
+        @Override
+        public void selected(int position, String txt) {
+            Toast.makeText(MainActivity.this,"选择了第"+(position+1)+"个，标题是："+txt,Toast.LENGTH_SHORT).show();
+        }
+    });
 }
 ```
