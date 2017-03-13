@@ -13,14 +13,14 @@
         android:id="@+id/page"
         android:layout_width="230dp"
         android:layout_height="35dp"
-        app:fillColor="@android:color/transparent"
-        app:pressColor="@android:color/white"
+        app:fill_color="@android:color/transparent"
+        app:press_color="@android:color/white"
         app:radius="4dp"
-        app:strokeColor="@android:color/white"
-        app:strokeWidth="0.5dp"
-        app:textColor="@android:color/white"
-        app:textSelectColor="@android:color/black"
-        app:textSize="16sp"
+        app:stroke_color="@android:color/white"
+        app:stroke_width="0.5dp"
+        app:text_color="@android:color/white"
+        app:text_select_color="@android:color/black"
+        app:text_size="16sp"
         app:titles="第一,第二,第三" />
 
 </LinearLayout>

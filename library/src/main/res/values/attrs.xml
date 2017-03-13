@@ -2,13 +2,13 @@
 <resources>
     <declare-styleable name="SwitchPage">
         <attr name="titles" format="string|reference" />
-        <attr name="fillColor" format="color|reference" />
-        <attr name="pressColor" format="color|reference" />
+        <attr name="fill_color" format="color|reference" />
+        <attr name="press_color" format="color|reference" />
         <attr name="radius" format="dimension|reference" />
-        <attr name="strokeWidth" format="dimension|reference" />
-        <attr name="strokeColor" format="color|reference" />
-        <attr name="textColor" format="color|reference" />
-        <attr name="textSelectColor" format="color|reference" />
-        <attr name="textSize" format="dimension|reference" />
+        <attr name="stroke_width" format="dimension|reference" />
+        <attr name="stroke_color" format="color|reference" />
+        <attr name="text_color" format="color|reference" />
+        <attr name="text_select_color" format="color|reference" />
+        <attr name="text_size" format="dimension|reference" />
     </declare-styleable>
 </resources>
