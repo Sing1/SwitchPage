@@ -23,8 +23,8 @@ text\_color | 文字颜色
 text\_select\_color | 选择后的文字颜色
 text\_size | 文字大小
 
-##使用方法
-######1、XML编写
+## 使用方法
+###### 1、XML编写
 ```XML
  <sing.widget.SwitchPage
     android:id="@+id/page"
@@ -56,7 +56,7 @@ protected void onCreate(Bundle savedInstanceState) {
     });
 }
 ```
-######2、代码编写
+###### 2、代码编写
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
