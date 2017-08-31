@@ -68,15 +68,15 @@ public class SwitchPage extends LinearLayout implements View.OnClickListener {
         if (attrs != null) {
             TintTypedArray a = TintTypedArray.obtainStyledAttributes(context, attrs, R.styleable.SwitchPage, defStyleAttr, 0);
 
-            titles = a.getString(R.styleable.SwitchPage_titles);
-            fillColor = a.getColor(R.styleable.SwitchPage_fill_color,Color.parseColor("#00000000"));
-            pressColor = a.getColor(R.styleable.SwitchPage_press_color,Color.parseColor("#FFFFFF"));
-            radius = a.getDimensionPixelSize(R.styleable.SwitchPage_radius,8);
-            strokeWidth = a.getDimensionPixelSize(R.styleable.SwitchPage_stroke_width,1);
-            strokeColor = a.getColor(R.styleable.SwitchPage_stroke_color,Color.parseColor("#FFFFFF"));
-            textColor = a.getColor(R.styleable.SwitchPage_text_color,Color.parseColor("#FFFFFF"));
-            textSelectColor = a.getColor(R.styleable.SwitchPage_text_select_color,Color.parseColor("#000000"));
-            textSize = a.getDimensionPixelSize(R.styleable.SwitchPage_text_size,14);
+            titles = a.getString(R.styleable.SwitchPage_sp_titles);
+            fillColor = a.getColor(R.styleable.SwitchPage_sp_fill_color,Color.parseColor("#00000000"));
+            pressColor = a.getColor(R.styleable.SwitchPage_sp_press_color,Color.parseColor("#FFFFFF"));
+            radius = a.getDimensionPixelSize(R.styleable.SwitchPage_sp_radius,8);
+            strokeWidth = a.getDimensionPixelSize(R.styleable.SwitchPage_sp_stroke_width,1);
+            strokeColor = a.getColor(R.styleable.SwitchPage_sp_stroke_color,Color.parseColor("#FFFFFF"));
+            textColor = a.getColor(R.styleable.SwitchPage_sp_text_color,Color.parseColor("#FFFFFF"));
+            textSelectColor = a.getColor(R.styleable.SwitchPage_sp_text_select_color,Color.parseColor("#000000"));
+            textSize = a.getDimensionPixelSize(R.styleable.SwitchPage_sp_text_size,14);
             a.recycle();
 
             initView();

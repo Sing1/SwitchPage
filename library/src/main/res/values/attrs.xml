@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="SwitchPage">
-        <attr name="titles" format="string|reference" />
-        <attr name="fill_color" format="color|reference" />
-        <attr name="press_color" format="color|reference" />
-        <attr name="radius" format="dimension|reference" />
-        <attr name="stroke_width" format="dimension|reference" />
-        <attr name="stroke_color" format="color|reference" />
-        <attr name="text_color" format="color|reference" />
-        <attr name="text_select_color" format="color|reference" />
-        <attr name="text_size" format="dimension|reference" />
+        <attr name="sp_titles" format="string|reference" />
+        <attr name="sp_fill_color" format="color|reference" />
+        <attr name="sp_press_color" format="color|reference" />
+        <attr name="sp_radius" format="dimension|reference" />
+        <attr name="sp_stroke_width" format="dimension|reference" />
+        <attr name="sp_stroke_color" format="color|reference" />
+        <attr name="sp_text_color" format="color|reference" />
+        <attr name="sp_text_select_color" format="color|reference" />
+        <attr name="sp_text_size" format="dimension|reference" />
     </declare-styleable>
 </resources>
