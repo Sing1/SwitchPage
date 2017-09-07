@@ -6,7 +6,7 @@
 ```groovy
 dependencies {
     ...
-    compile 'sing.switchpage:library:1.0.2'
+    compile 'sing.switchpage:library:1.0.6'
 }
 ```
 其中包含了如下的自定义属性：  

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/parent"
     android:layout_width="match_parent"
@@ -9,18 +10,24 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <sing.widget.SwitchPage
-        android:id="@+id/page"
-        android:layout_width="230dp"
-        android:layout_height="35dp"
-        app:sp_fill_color="@android:color/transparent"
-        app:sp_press_color="@android:color/white"
-        app:sp_radius="4dp"
-        app:sp_stroke_color="@android:color/white"
-        app:sp_stroke_width="0.5dp"
-        app:sp_text_color="@android:color/white"
-        app:sp_text_select_color="@android:color/black"
-        app:sp_text_size="16sp"
-        app:sp_titles="第一,第二,第三" />
+    <!--<sing.widget.SwitchPage-->
+        <!--android:id="@+id/page"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="35dp"-->
+        <!--app:sp_fill_color="@android:color/transparent"-->
+        <!--app:sp_press_color="@android:color/white"-->
+        <!--app:sp_radius="4dp"-->
+        <!--app:sp_stroke_color="@android:color/white"-->
+        <!--app:sp_stroke_width="0.5dp"-->
+        <!--app:sp_text_color="@android:color/white"-->
+        <!--app:sp_text_select_color="@android:color/black"-->
+        <!--app:sp_text_size="16sp"-->
+        <!--app:sp_titles="推荐好友,我的二维码"/>-->
+
+    <TextView
+        android:id="@+id/asd"
+        android:text="爱迪生"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
