@@ -188,7 +188,7 @@ public class SwitchPage extends LinearLayout {
             tv.setLayoutParams(new ViewGroup.LayoutParams(LayoutParams.WRAP_CONTENT, height));
             tv.setText(title[i]);
             tv.setTextColor(textColor);
-            tv.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
+            tv.setTextSize(TypedValue.COMPLEX_UNIT_SP, textSize);
             if (i == 0) {
                 tv.setBackground(getLeftBackground());
             } else if (i == size - 1) {

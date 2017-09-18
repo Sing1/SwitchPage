@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                     .setStrokeColor("#FFFFFF")
                     .setTextColor("#FFFFFF")
                     .setTextSelectColor("#000000")
-                    .setTextSize(32)//转换后的大小 px
+                    .setTextSize(16)//SP
                     .build();
             page.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,80));
             ((LinearLayout)findViewById(R.id.parent)).addView(page,0);

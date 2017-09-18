@@ -25,6 +25,7 @@
         <!--app:sp_titles="推荐好友,我的二维码"/>-->
 
     <TextView
+        android:textSize="16sp"
         android:id="@+id/asd"
         android:text="爱迪生"
         android:layout_width="wrap_content"

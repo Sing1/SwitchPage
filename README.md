@@ -6,7 +6,7 @@
 ```groovy
 dependencies {
     ...
-    compile 'sing.switchpage:library:1.0.6'
+    compile 'sing.switchpage:library:1.0.7'
 }
 ```
 其中包含了如下的自定义属性：  
@@ -21,7 +21,7 @@ stroke\_width | 边框宽度
 stroke\_color | 边框颜色
 text\_color | 文字颜色
 text\_select\_color | 选择后的文字颜色
-text\_size | 文字大小
+text\_size | 文字大小(单位：SP)
 
 ## 使用方法
 ###### 1、XML编写
@@ -85,7 +85,7 @@ protected void onCreate(Bundle savedInstanceState) {
 	                .setStrokeColor("#FFFFFF")
 	                .setTextColor("#FFFFFF")
 	                .setTextSelectColor("#000000")
-	                .setTextSize(32)//转换后的大小 px
+	                .setTextSize(16)// 单位是SP
 	                .build();
     page.setLayoutParams(new LinearLayout.LayoutParams(560,80));// 控件大小自己定义
     ((LinearLayout)findViewById(R.id.parent)).addView(page,0);//添加到跟布局的指定位置
