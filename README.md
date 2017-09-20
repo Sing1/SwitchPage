@@ -91,7 +91,7 @@ protected void onCreate(Bundle savedInstanceState) {
     ((LinearLayout)findViewById(R.id.parent)).addView(page,0);//添加到跟布局的指定位置
     
     page.setOnClickListener(new SwitchPage.OnClickListener() {
-            
+               
         @Override
         public void selected(int position, String txt) {
             Toast.makeText(MainActivity.this,"选择了第"+(position+1)+"个，标题是："+txt,Toast.LENGTH_SHORT).show();
