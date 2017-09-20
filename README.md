@@ -70,7 +70,7 @@ protected void onCreate(Bundle savedInstanceState) {
     <!-- 没有内容，只有id -->
 </LinearLayout>
 ```
-```JAVA
+```JAVA  
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
